@@ -1,0 +1,3 @@
+RMSLE: 0.212408
+rows: 136715
+outlier bounds: 0.00, 111750.00

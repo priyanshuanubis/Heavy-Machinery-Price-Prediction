@@ -1,0 +1,44 @@
+# Python & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook & Runtimes
+.ipynb_checkpoints
+.jupyter_runtime/
+
+# IDE & Agent Tooling
+.agents/
+.codex/
+.vscode/
+.idea/
+
+# Large Model Checkpoints & Binary Artifacts
+*.pkl
+*.joblib
+*.h5
+*.pb
+*.onnx
+*.npy
+*.pth
+*.pt
+*.bin
+catboost_info/
+
+# Data files (Kaggle dataset)
+data/*.csv
+!data/sample_submission.csv
+
+# Output logs & cached arrays
+outputs/
+*.log
+*.err
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
